@@ -12,3 +12,4 @@ This project makes use of multiple third party plugins and is itself licensed un
 |assimp| https://github.com/assimp/assimp |3-clause BSD-License|
 |ruyo/assimp| https://github.com/ruyo/assimp |3-clause BSD-License|
 |EasyFileDialog|https://github.com/unrealsumon/EasyFileDialog||
+|JsonLiveLink|https://github.com/ue4plugins/JSONLiveLink|MIT License|
