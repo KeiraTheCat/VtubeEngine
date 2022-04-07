@@ -39,6 +39,7 @@ iPhone X and newer| LiveLink Face
 </p>
 </details>
 
+### Step 3: Load your VRM model.
 ## License
 This project makes use of multiple third party plugins and is itself licensed under the MIT license.
 |Plugin|Link|License|
