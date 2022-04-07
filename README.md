@@ -13,11 +13,31 @@ UEVtube's main functionality consists of using a mobile phone face tracking app 
 Android|UEVtube APK https://github.com/KeiraTheCat/UEVtubeTracker, not on play store yet.
 iPhone X and newer| LiveLink Face
 ### Step 2: Connect tracking to UEVtube.
-#### ANDROID:
-Write down local Ip and port in UEVtube and click the "Set" button
+<details><summary>ANDROID</summary>
+<p>
+  
+- Write down local Ip and port in UEVtube and click the "Set" button
+
 ![image](ReadMeStuff/guideImage1.png)
-Enter local IP and port into UEVtube Android app and click start
+- Enter local IP and port into UEVtube Android app and click start
+
 ![image](ReadMeStuff/guideImage2.png)
+</p>
+</details>
+<details><summary>IPHONE</summary>
+<p>
+  
+- Write down local IP in UEVtube DISREGARD THE PORT AND IGNORE THE SET BUTTON
+
+![image](ReadMeStuff/guideImage3.png)
+  
+- Enter the local IP into the Livelink Face app. DO NOT ENTER PORT.
+
+- As of writing this, Livelink face does not support head position, so turn on head position from rotation setting in the avatar config, if you use an included config you will have to set this and save it after loading the included config!
+  
+![image](ReadMeStuff/guideImage4.png)
+</p>
+</details>
 
 ## License
 This project makes use of multiple third party plugins and is itself licensed under the MIT license.
