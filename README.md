@@ -1,4 +1,4 @@
-# UEVtube
+# Vtube Engine
 Open Source Vtubing toolset made for use with the game engine Unreal Engine 5, I've made this tool with the goal of making a completely free and accesable option for 3D Vtubing, VRM importing built it but is possible with a fair bit of modification to run all systems on any FBX skeletal mesh.
 ## Features
 - Camera and lighting controls
