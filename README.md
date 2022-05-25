@@ -1,25 +1,27 @@
-# Vtube Engine
-Open Source Vtubing toolset made for use with the game engine Unreal Engine 5, I've made this tool with the goal of making a completely free and accesable option for 3D Vtubing, VRM importing built it but is possible with a fair bit of modification to run all systems on any FBX skeletal mesh.
+# VTube Engine
+Open source 3D VTuber toolset created with unreal engine 5, I've made this tool with the goal of making a free and high quality option for VTuber with VRM models, VRM importing built it but is possible with a bit of modification to run all systems on any skeletal mesh.
 ## Features
 - Camera and lighting controls
+- Real time attachment system, FBX/OBJ runtime mesh import, most image formats.
+- Event system with various triggerable effects.
 - Granular configuration for each of a morph target/blendshape to be bound to a face tracker's output data, or a microphone's inputs audio Visemes.
 - Hosts a local server to connect to twitch.tv pubsub, and irc chat, as well as providing functionality for their events.
 ## Usage Guide
 Download a release from the releases tab or run project itself within Unreal Engine 5
-UEVtube's main functionality consists of using a mobile phone face tracking app to send face tracking data to the program
+VTube Engine's main functionality consists of using a mobile phone face tracking app to send face tracking data to the program.
 ### Step 1: Download a face tracker
 |Device|Tracker
 |----|----|
-Android|UEVtube APK https://github.com/***REMOVED***/UEVtubeTracker, not on play store yet.
-iPhone X and newer| LiveLink Face
-### Step 2: Connect tracking to UEVtube.
+Android|VTE Tracker APK https://github.com/***REMOVED***/VTE-Tracker, not on play store yet.
+iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/id1495370836
+### Step 2: Connect tracking to VTube Engine.
 <details><summary>ANDROID</summary>
 <p>
   
-- Write down local Ip and port in UEVtube and click the "Set" button
+- Write down local Ip and port in VTube Engine and click the "Set" button
 
 ![image](ReadMeStuff/guideImage1.png)
-- Enter local IP and port into UEVtube Android app and click start
+- Enter local IP and port into VTube Engine Android app and click start
 
 ![image](ReadMeStuff/guideImage2.png)
 </p>
@@ -27,7 +29,7 @@ iPhone X and newer| LiveLink Face
 <details><summary>IPHONE</summary>
 <p>
   
-- Write down local IP in UEVtube DISREGARD THE PORT AND IGNORE THE SET BUTTON
+- Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON
 
 ![image](ReadMeStuff/guideImage3.png)
   
@@ -44,11 +46,15 @@ iPhone X and newer| LiveLink Face
 This project makes use of multiple third party plugins and is itself licensed under the MIT license.
 |Plugin|Link|License|
 |----|----|----|
-|UEVtube | https://github.com/***REMOVED***/UEVtube | MIT License
-|Oculus Lipsync Unreal Integration v29|https://developer.oculus.com/documentation/unreal/audio-ovrlipsync-unreal/|Oculus SDK License|
+|VTube Engine| https://github.com/***REMOVED***/VtubeEngine | MIT License
+|Oculus Lipsync Unreal Integration v29|https://developer.oculus.com/documentation/unreal/audio-ovrlipsync-unreal/ |Oculus SDK License|
 |TwitchInteractionUE| https://github.com/zeplin455/TwitchInteractionUE |MIT License
-|VRM4U| https://github.com/ruyo/VRM4U|MIT License|
+|VRM4U| https://github.com/ruyo/VRM4U |MIT License|
 |assimp| https://github.com/assimp/assimp |3-clause BSD-License|
 |ruyo/assimp| https://github.com/ruyo/assimp |3-clause BSD-License|
-|EasyFileDialog|https://github.com/unrealsumon/EasyFileDialog||
-|JsonLiveLink|https://github.com/ue4plugins/JSONLiveLink|MIT License|
+|EasyFileDialog|https://github.com/unrealsumon/EasyFileDialog ||
+|JsonLiveLink|https://github.com/ue4plugins/JSONLiveLink |MIT License|
+|Victory Plugin|https://github.com/EverNewJoy/VictoryPlugin |MIT License|
+
+## Notes
+For this project to package properly in unreal 5 you must connect your github account to Epic Games and download the source for VRM4U (https://github.com/ruyo/UnrealEngine_VRM4UPlugin) add plugins/VRM4U to this repository's plugin folder.
