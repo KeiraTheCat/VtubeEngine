@@ -1,5 +1,5 @@
 # VTube Engine
-Open source 3D VTuber toolset created with unreal engine 5, I've made this tool with the goal of making a free and high quality option for VTuber with VRM models, VRM importing built it but is possible with a bit of modification to run all systems on any skeletal mesh.
+Soon to be* Open source 3D VTuber toolset created with unreal engine 5, I've made this tool with the goal of making a free and high quality option for VTuber with VRM models, VRM importing built it but is possible with a bit of modification to run all systems on any skeletal mesh.
 ## Features
 - Camera and lighting controls
 - Real time attachment system, FBX/OBJ runtime mesh import, most image formats.
@@ -43,11 +43,11 @@ iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/i
 
 ### Step 3: Load your VRM model.
 ## License
-This project makes use of multiple third party plugins and is itself licensed under the MIT license.
+This project makes use of multiple third party plugins and is its non derivative content licensed under the MIT license.
 |Plugin|Link|License|
 |----|----|----|
 |VTube Engine| https://github.com/KeiraTheCat/VtubeEngine | MIT License
-|Oculus Lipsync Unreal Integration v29|https://developer.oculus.com/documentation/unreal/audio-ovrlipsync-unreal/ |Oculus SDK License|
+|Oculus Lipsync Unreal Integration v29|https://developer.oculus.com/documentation/unreal/audio-ovrlipsync-unreal/ |Oculus Audio SDK License 3.3|
 |TwitchInteractionUE| https://github.com/zeplin455/TwitchInteractionUE |MIT License
 |VRM4U| https://github.com/ruyo/VRM4U |MIT License|
 |assimp| https://github.com/assimp/assimp |3-clause BSD-License|
