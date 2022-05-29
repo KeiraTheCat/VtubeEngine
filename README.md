@@ -14,6 +14,7 @@ VTube Engine's main functionality consists of using a mobile phone face tracking
 |----|----|
 Android|VTE Tracker APK https://github.com/KeiraTheCat/VTE-Tracker, not on play store yet.
 iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/id1495370836
+iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id1489470545
 ### Step 2: Connect tracking to VTube Engine.
 <details><summary>ANDROID</summary>
 <p>
@@ -28,7 +29,8 @@ iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/i
 </details>
 <details><summary>IPHONE</summary>
 <p>
-  
+<details><summary>Livelink Face</summary>
+<p>
 - Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON
 
 ![image](ReadMeStuff/guideImage3.png)
@@ -40,10 +42,17 @@ iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/i
 ![image](ReadMeStuff/guideImage4.png)
 </p>
 </details>
+<details><summary>IFacialMocap</summary>
+<p>
+- Enter iphone local ip address into Vtube Engine
+</p>
+</details>
+</p>
+</details>
 
 ### Step 3: Load your VRM model.
 ## License
-This project makes use of multiple third party plugins and is its non derivative content licensed under the MIT license.
+This project makes use of multiple third party plugins and its non derivative source and content is licensed under the MIT license.
 |Plugin|Link|License|
 |----|----|----|
 |VTube Engine| https://github.com/KeiraTheCat/VtubeEngine | MIT License
@@ -52,9 +61,9 @@ This project makes use of multiple third party plugins and is its non derivative
 |VRM4U| https://github.com/ruyo/VRM4U |MIT License|
 |assimp| https://github.com/assimp/assimp |3-clause BSD-License|
 |ruyo/assimp| https://github.com/ruyo/assimp |3-clause BSD-License|
-|EasyFileDialog|https://github.com/unrealsumon/EasyFileDialog ||
 |JsonLiveLink|https://github.com/ue4plugins/JSONLiveLink |MIT License|
 |Victory Plugin|https://github.com/EverNewJoy/VictoryPlugin |MIT License|
+|UDP-Unreal|https://github.com/getnamo/UDP-Unreal |MIT License
 
 ## Notes
 For this project to package properly in unreal 5 you must connect your github account to Epic Games and download the source for VRM4U (https://github.com/ruyo/UnrealEngine_VRM4UPlugin) add plugins/VRM4U to this repository's plugin folder.
