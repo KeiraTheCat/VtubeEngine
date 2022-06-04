@@ -12,7 +12,7 @@ VTube Engine's main functionality consists of using a mobile phone face tracking
 ### Step 1: Download a face tracker
 |Device|Tracker
 |----|----|
-Android|VTE Tracker APK https://github.com/***REMOVED***/VTE-Tracker, not on play store yet.
+Android|VTE Tracker APK https://github.com/KeiraTheCat/VTE-Tracker, not on play store yet.
 iPhone X and newer| LiveLink Face https://apps.apple.com/us/app/live-link-face/id1495370836
 iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id1489470545
 ### Step 2: Connect tracking to VTube Engine.
@@ -31,7 +31,7 @@ iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id14
 <p>
 <details><summary>Livelink Face</summary>
 <p>
-- Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON
+- Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON.
 
 ![image](ReadMeStuff/guideImage3.png)
   
@@ -55,7 +55,7 @@ iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id14
 This project makes use of multiple third party plugins and its non derivative source and content is licensed under the MIT license.
 |Plugin|Link|License|
 |----|----|----|
-|VTube Engine| https://github.com/***REMOVED***/VtubeEngine | MIT License
+|VTube Engine| https://github.com/KeiraTheCat/VtubeEngine | MIT License
 |Oculus Lipsync Unreal Integration v29|https://developer.oculus.com/documentation/unreal/audio-ovrlipsync-unreal/ |Oculus Audio SDK License 3.3|
 |TwitchInteractionUE| https://github.com/zeplin455/TwitchInteractionUE |MIT License
 |VRM4U| https://github.com/ruyo/VRM4U |MIT License|
