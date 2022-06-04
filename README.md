@@ -31,7 +31,7 @@ iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id14
 <p>
 <details><summary>Livelink Face</summary>
 <p>
-- Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON
+- Write down local IP displayed within VTube Engine DISREGARD THE PORT AND IGNORE THE SET BUTTON.
 
 ![image](ReadMeStuff/guideImage3.png)
   
