@@ -44,7 +44,7 @@ iPhone X and newer| IfacialMocap https://apps.apple.com/us/app/ifacialmocap/id14
 </details>
 <details><summary>IFacialMocap</summary>
 <p>
-- Enter iphone local ip address into Vtube Engine
+- Enter iphone local ip address into Vtube Engine.
 </p>
 </details>
 </p>
